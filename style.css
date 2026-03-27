@@ -1,0 +1,85 @@
+/* Estilo da Barra de Navegação */
+.navbar {
+    display: flex; /* Ativa o contexto flex  */
+    justify-content: space-between; /* Logo na esquerda, links na direita [cite: 219] */
+    align-items: center; /* Centraliza verticalmente [cite: 223] */
+    padding: 20px;
+    background-color: #222;
+    gap: 16px; /* Cria respiros entre os itens [cite: 237, 238] */
+    color: antiquewhite;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+     color:antiquewhite;
+     text-decoration: none;
+}
+.linkinho{
+    text-decoration: none;
+    color: brown;
+}
+.noticia-corpo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+.noticia-corpo img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+/* Corpo do Jornal */
+.container-principal {
+    display: flex;
+    flex-direction: row; /* Alinha em linha (padrão) [cite: 176, 179] */
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Permite quebrar linha se não couber (importante para Mobile) [cite: 199, 203] */
+    padding: 20px;
+}
+.noticia-destaque {
+    flex: 1 1 50%;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+}
+
+.sidebar {
+    flex: 1 1 30%;
+    background-color: #eee;
+    padding: 10px;
+    height: fit-content;
+    text-align: justify;
+}
+.sidebar img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.data{
+    font-size: 0.9em;
+    color: gray;
+}
+.coluna-noticias{
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+footer{
+    background-color: #222;
+    color: antiquewhite;
+    text-align: center;
+}
