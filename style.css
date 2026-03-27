@@ -1,11 +1,10 @@
-/* Estilo da Barra de Navegação */
 .navbar {
-    display: flex; /* Ativa o contexto flex  */
-    justify-content: space-between; /* Logo na esquerda, links na direita [cite: 219] */
-    align-items: center; /* Centraliza verticalmente [cite: 223] */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: #222;
-    gap: 16px; /* Cria respiros entre os itens [cite: 237, 238] */
+    gap: 16px;
     color: antiquewhite;
 }
 .titulo{
@@ -38,14 +37,13 @@
     border-radius: 8px;
     flex-shrink: 0;
 }
-/* Corpo do Jornal */
 .container-principal {
     display: flex;
-    flex-direction: row; /* Alinha em linha (padrão) [cite: 176, 179] */
+    flex-direction: row;
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 30px;
-    flex-wrap: wrap; /* Permite quebrar linha se não couber (importante para Mobile) [cite: 199, 203] */
+    flex-wrap: wrap;
     padding: 20px;
 }
 .noticia-destaque {
