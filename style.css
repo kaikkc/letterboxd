@@ -110,3 +110,62 @@ footer{
     color: antiquewhite;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .container-principal {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .coluna-noticias {
+        flex: 1 1 100%;
+    }
+
+    .sidebar {
+        flex: 1 1 100%;
+    }
+
+    .noticia-corpo {
+        flex-direction: column;
+    }
+
+    .noticia-destaque {
+        flex: 1 1 100%;
+        padding: 10px 0;
+    }
+
+    .noticia-destaque img {
+        width: 100%;
+        height: auto;
+    }
+
+    .film-card {
+        justify-content: center;
+    }
+
+    .film-card img {
+        width: 120px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .links {
+        gap: 12px;
+    }
+
+    .film-card img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .sidebar img {
+        width: 150px;
+    }
+}
